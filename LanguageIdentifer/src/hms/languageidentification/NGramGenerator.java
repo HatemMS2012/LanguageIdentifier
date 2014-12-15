@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class NGramGenerator {
 
 	
-	public static Map<String, Integer> ngrams(String str, int length) {
+	public static Map<String, Integer> ngrams(String str, int length) { 
 		Pattern pattern = Pattern.compile("^_?[^0-9\\?!\\-_/,(){}]*_?$");
 		Map<String, Integer> ngramCountMap = new HashMap<String, Integer>();
 		char[] chars = str.toCharArray();
