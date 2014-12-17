@@ -5,7 +5,7 @@ An implementation of a simple method for document language identification. The i
 
 ##Usage
 
-**Example: inside java code**
+**Example I: inside java code**
 ```java
 	public static void main(String[] args) {
 		//Create hms.languageidentification.TextLanguageIdentifier object
@@ -17,7 +17,8 @@ An implementation of a simple method for document language identification. The i
 	}
 
 ```
-**Example: using lang-identifier.jar
+
+**Example II: using lang-identifier.jar**
 In command line type:
 ```command
 	java -jar lang-identifier.jar "your text"
