@@ -19,7 +19,8 @@ An implementation of a simple method for document language identification. The i
 ```
 
 **Example II: using lang-identifier.jar**
-In command line type:
+
+In your command line type:
 ```command
 	java -jar lang-identifier.jar "your text"
 ```
