@@ -7,35 +7,39 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import hms.languageidentification.LanguageProfile;
 
+
+
 public class CorpusHandler {
+
+
+	private static int MIN_NGRAM = 1 ; //min n-gram length
+	private static int MAX_NGRAM = 3 ; //max n-gram length
+	private static int MIN_OCURR = 1000; //min occurance of an n-gram
+	private static Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
+
 	
-	
-	private static int MIN_OCURR = 2000;
-	
-	
+	/**
+	 * Generates n-gram for a given corpus. 
+	 * @param corpusFilePath The path of the corpus file.
+	 * @param ngramTargetFile The path of the n-gram file 
+	 */
 	public static void generateNGramForCorpus(String corpusFilePath, String ngramTargetFile){
 		ngramMapUnsorted.clear();
 		generateNGrams(new File(corpusFilePath));
 		saveToFile(ngramTargetFile,MIN_OCURR);
-	
 		
 	}
 
-	
+	/**
+	 * Generates n-grams from corpus files stored in a given directory
+	 * @param corpusFileDir The directory of corpus file
+	 * @param distDir The output directory where the n-gram file are saved
+	 */
 	public static void generateNGramForCorpuses(String corpusFileDir,String distDir){
 		
 		String [] corpusFileNames = new File(corpusFileDir).list();
@@ -51,56 +55,18 @@ public class CorpusHandler {
 	
 	public static void main(String[] args) {
 	
-	
-	
-		generateNGramForCorpuses("C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/", "./resources/processed/");
+		String corpusFileDir = "C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/" ;
+		String ngramFileDestDir = "./13grams/";
+		generateNGramForCorpuses(corpusFileDir, ngramFileDestDir );
 	}
 			
-	
-	
-
-	private static Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
-	
-	
-	public static  Map<String, Integer> generateNGrams(String str, int length) {
-		
-	
-		Pattern pattern = Pattern.compile("^_?[^0-9\\?!\\-_/,;.:§%?\"'|~^°(){} \\[\\] ]*_?$");
-		char[] chars = str.toCharArray();
-	  
-	    final int resultCount = chars.length - length + 1;
-	    
-   
-	    for (int i = 0; i < resultCount; i++) {
-	        
-	        String ngram =  new String(chars, i, length);
-	        Matcher matcher = pattern.matcher(ngram);
-	        
-	        if(!matcher.find()){
-
-	        	continue;
-	        }
-	        
-	        ngram =  ngram.replace(" ", "_");
-	        
-	        Integer nGramCount = ngramMapUnsorted.get(ngram);
-	        
-	        if(nGramCount!=null){
-
-	        	ngramMapUnsorted.put(ngram, nGramCount+1);
-	        }
-	        else{
-	        	ngramMapUnsorted.put(ngram, 1);
-	        }
-	        
-//	        System.out.println(ngram + ":" + ngramMapUnsorted.get(ngram));
-	    }
-	    
-	    return ngramMapUnsorted;
-	}
-	
+	/**
+	 * Generate n-grams for a corpus file
+	 * @param corpusFile
+	 */
 	public static void generateNGrams(File corpusFile) {
 
+		LanguageProfile lp = new LanguageProfile();
 		try {
 			InputStreamReader isr = new InputStreamReader(new FileInputStream(corpusFile));
 			BufferedReader br = new BufferedReader(isr);
@@ -110,10 +76,10 @@ public class CorpusHandler {
 			while ((line = br.readLine()) != null) {
 				String[] lineStr = line.split("\t");
 				line = lineStr[1].toLowerCase();
-				for (int i = MIN_NGRAM; i <=MAX_NGRAM; i++) {
-					generateNGrams(line,i);
+				
+				Map<String, Integer> lineNGrams = lp.generateAllNGrams(line, MIN_NGRAM, MAX_NGRAM);
 
-				}
+				ngramMapUnsorted.putAll(lineNGrams);
 			}
 
 			br.close();
@@ -125,26 +91,29 @@ public class CorpusHandler {
 		}
 	}
 	
-	private static int MIN_NGRAM = 2 ;
-	private static int MAX_NGRAM = 3 ;
-	
+
+	/**
+	 * Save the n-grams to a file 
+	 * @param outputFilePath
+	 * @param minOccur The minimum accepted occurrence count for an n-gram
+	 */
 	public static void saveToFile(String outputFilePath, int minOccur){
 		
+		//First sort the n-gram according to their occurrences
+		Map<String, Integer> sortedNgramMap = CollectionsUtil.sortByComparator(ngramMapUnsorted, false);
 		
 		PrintWriter out;
 		try {
 			out = new PrintWriter(new File(outputFilePath));
-			for(Entry<String, Integer> entry : ngramMapUnsorted.entrySet()){
+			for(Entry<String, Integer> entry : sortedNgramMap.entrySet()){
 				
 				if(entry.getValue() >= minOccur){
 					out.print(entry.getKey().trim().replace(" ", "") + ";" + entry.getValue() + "\n");
 				}
 				
 			}
-			
 			out.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 				

@@ -26,7 +26,7 @@ public class TextLanguageIdentifier {
 	}
 	
 	
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		TextLanguageIdentifier li = new TextLanguageIdentifier();
 		
 		String lang = li.identifyLanguage("wie geht es dir");
@@ -67,9 +67,13 @@ public class TextLanguageIdentifier {
 		
 		lang = li.identifyLanguage("Найближчою генеалогічно до української є білоруська мова");
 		System.out.println(lang);
+		
+		lang = li.identifyLanguage("enter some nice text");
+		System.out.println(lang);
+		
 	}
 	
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
 		
 		if(args.length !=1){
 			System.out.println("Enter you text within double qu...");
