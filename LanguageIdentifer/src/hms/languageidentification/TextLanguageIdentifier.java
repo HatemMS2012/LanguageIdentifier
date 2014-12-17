@@ -26,7 +26,7 @@ public class TextLanguageIdentifier {
 	}
 	
 	
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		TextLanguageIdentifier li = new TextLanguageIdentifier();
 		
 		String lang = li.identifyLanguage("wie geht es dir");
@@ -73,7 +73,7 @@ public class TextLanguageIdentifier {
 		
 	}
 	
-	public static void main2(String[] args) {
+	public static void main(String[] args) {
 		
 		if(args.length !=1){
 			System.out.println("Enter you text within double qu...");

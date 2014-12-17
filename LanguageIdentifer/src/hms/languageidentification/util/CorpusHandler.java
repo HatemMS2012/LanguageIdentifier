@@ -19,7 +19,7 @@ public class CorpusHandler {
 
 	private static int MIN_NGRAM = 1 ; //min n-gram length
 	private static int MAX_NGRAM = 3 ; //max n-gram length
-	private static int MIN_OCURR = 1; //min occurance of an n-gram
+	private static int MIN_OCURR = 1000; //min occurance of an n-gram
 	private static Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
 
 	
@@ -52,9 +52,7 @@ public class CorpusHandler {
 		}
 		
 	}
-	
-	
-			
+				
 	/**
 	 * Generate n-grams for a corpus file
 	 * @param corpusFile
@@ -73,8 +71,23 @@ public class CorpusHandler {
 				line = lineStr[1].toLowerCase();
 				
 				Map<String, Integer> lineNGrams = lp.generateAllNGrams(line, MIN_NGRAM, MAX_NGRAM);
+				
+				for(Entry<String, Integer> entry : lineNGrams.entrySet()){
+					
+					String ngram = entry.getKey();
+					Integer count = entry.getValue();
+					Integer oldCount= ngramMapUnsorted.get(ngram);
+					if(oldCount!=null){
+						ngramMapUnsorted.put(ngram, count+oldCount);
+					}
+					else{
+						ngramMapUnsorted.put(ngram, count);
+					}
+					
+					
+				}
 
-				ngramMapUnsorted.putAll(lineNGrams);
+				
 			}
 
 			br.close();
@@ -103,7 +116,7 @@ public class CorpusHandler {
 			for(Entry<String, Integer> entry : sortedNgramMap.entrySet()){
 				
 				if(entry.getValue() >= minOccur){
-					out.print(entry.getKey().trim().replace(" ", "") + ";" + entry.getValue() + "\n");
+					out.print(entry.getKey().trim().replace(" ", "") + "\t" + entry.getValue() + "\n");
 				}
 				
 			}
