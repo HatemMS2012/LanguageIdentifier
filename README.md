@@ -2,6 +2,12 @@
 
 ##Introduction
 An implementation of a simple method for document language identification. The implemented approach is based on character n-gram model as proposed by Cavnar et el [1]. 
+For each of the 17 supported languages (ara, deu, eng, fra, ita, nld, pol, rus, spa, swe, tur, ukr, urd, bel, fas, dan, cat) (see [iso639-2](http://www.loc.gov/standards/iso639-2/php/English_list.php) for more information about language abbreviations), we created an n-gram model for n=1,2 and 3. The training data were obtained from the [Leipzig Corpora Collection](http://corpora.informatik.uni-leipzig.de/). For each lanuage we selected the 300k datasets which consists of 300,000 sentences taken from newspaper texts, randomly collected text or wikipedia.
+
+In this project a the class hms.languageidentification.LanguageProfile can be used to generate n-gram files for addtional languages from the lang_x_x_x-sentences.txt files of the [Leipzig Corpora Collection](http://corpora.informatik.uni-leipzig.de/).
+
+
+
 
 ##Usage
 
