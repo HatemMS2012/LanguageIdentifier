@@ -17,6 +17,11 @@ An implementation of a simple method for document language identification. The i
 	}
 
 ```
+**Example: using lang-identifier.jar
+In command line type:
+```command
+	java -jar lang-identifier.jar "your text"
+```
 
 ## References
 N-Gram-Based Text Categorization (1994) by William B. Cavnar , John M. Trenkle Venue:	In Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval
