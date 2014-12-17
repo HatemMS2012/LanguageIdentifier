@@ -7,7 +7,7 @@ An implementation of a simple method for document language identification. The i
 
 **Example**
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 		TextLanguageIdentifier li = new TextLanguageIdentifier();
 		
 		String lang = li.identifyLanguage("wie geht es dir");
@@ -16,7 +16,7 @@ An implementation of a simple method for document language identification. The i
 		lang = li.identifyLanguage("it is a nice weather outside");
 		System.out.println(lang);
 		
-  }
+	}
 
 
 
