@@ -30,10 +30,10 @@ import java.util.regex.Pattern;
 public class LanguageProfile {
 	
 	
-	private static final String FILE_SPEARTOR = ";" ; //"\\s";
+	private static final String FILE_SPEARTOR = "\t" ; //"\\s";
 	private static String DEFAULT_CONFIG_FILE = "resources/processed/config.properties";
 	private int DEFAULT_MAX_N_GRAME = 3 ; //Currently a maximum of 3-grams is supported
-	private int DEFAULT_MIN_N_GRAME = 2 ;
+	private int DEFAULT_MIN_N_GRAME = 1 ;
 	private String profileLanguage ;
 	private Map<String, Integer> allNgramsMap;
 	
@@ -287,7 +287,7 @@ public class LanguageProfile {
 		try {
 			while ((languageProfileFileName = br.readLine()) != null) {
 			
-				InputStream lpIs = LanguageProfile.class.getClassLoader().getResourceAsStream(languageProfileFileName);
+				InputStream lpIs = LanguageProfile.class.getClassLoader().getResourceAsStream("resources/processed/"+languageProfileFileName);
 				LanguageProfile lp = loadLanguageProfile(lpIs);
 				lp.setProfileLanguage(languageProfileFileName.substring(languageProfileFileName.lastIndexOf("/")+1,languageProfileFileName.indexOf("_")));
 				lps.add(lp);

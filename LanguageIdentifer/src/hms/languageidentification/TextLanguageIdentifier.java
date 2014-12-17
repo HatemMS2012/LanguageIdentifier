@@ -26,7 +26,7 @@ public class TextLanguageIdentifier {
 	}
 	
 	
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		TextLanguageIdentifier li = new TextLanguageIdentifier();
 		
 		String lang = li.identifyLanguage("wie geht es dir");
@@ -68,12 +68,23 @@ public class TextLanguageIdentifier {
 		lang = li.identifyLanguage("Найближчою генеалогічно до української є білоруська мова");
 		System.out.println(lang);
 		
-		lang = li.identifyLanguage("enter some nice text");
+		lang = li.identifyLanguage("Einstein blev født i den sydtyske by Ulm");
 		System.out.println(lang);
+		
+		lang = li.identifyLanguage("Альберт Эйнштэйн нарадзіўся ў яўрэйскай сям'і ў Ульме, Германія");
+		System.out.println(lang);
+		
+		lang = li.identifyLanguage("وقتی اینشتین پنج ساله بود،");
+		System.out.println(lang);
+		
+		
+		lang = li.identifyLanguage("L'article explicava el fenomen fent ús de les estadístiques del moviment tèrmic dels àtoms individuals que formen un fluid");
+		System.out.println(lang);
+		
 		
 	}
 	
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		
 		if(args.length !=1){
 			System.out.println("Enter you text within double qu...");

@@ -1,1577 +1,2556 @@
-l&r;9636
-itr;2805
-ito;38391
-itu;9612
-itt;19392
-iud;4528
-ism;4401
-iso;11302
-isp;15073
-iss;12648
-isu;5771
-ist;59223
-ita;51197
-ite;10146
-iti;21892
-ivo;15216
-ius;8703
-iun;8076
-iut;5798
-iva;21801
-ivi;15552
-ive;22240
-ipr;2932
-ipo;5347
-ipi;2028
-ion;137907
-ior;25966
-ios;4316
-iol;3892
-ipa;6082
-ipe;4126
-iov;5560
-iro;4452
-iri;6545
-isi;12952
-ise;3212
-isc;18266
-isa;5469
-ire;24883
-ira;7174
-irc;4809
-ità;25473
-izz;16195
-izi;29671
-&r;13169
-&l;2435
-han;14853
-her;4433
-hie;10184
-hia;13432
-hio;4160
-hin;3744
-hil;2006
-hiu;4342
-già;5781
-gli;72401
-gno;10439
-gni;9576
-gna;15315
-gol;6898
-gon;6276
-gor;2662
-gov;5024
-gru;4188
-gra;25301
-gri;2273
-gre;6103
-gui;6410
-gua;9245
-gue;5405
-gur;2336
-iam;27227
-ial;18134
-ian;32163
-ias;2711
-ge;47005
-iar;20083
-iat;22671
-ga;47653
-fl;4931
-ff;30904
-fi;76597
-fr;25555
-fu;14888
-iac;4252
-fo;43066
-iag;2305
-e»;3416
-ibi;12297
-ibr;2628
-he;162917
-ibu;3575
-ha;70052
-iaz;4816
-gn;38071
-gl;75730
-gi;128416
-gh;8170
-gg;46372
-gu;25554
-iba;2906
-gr;39817
-ibe;4491
-go;35356
-du;36074
-ea;30354
-eb;24258
-ec;63845
-ed;63392
-de;321768
-dd;6642
-di;381968
-do;121571
-dq;2264
-dr;17656
-ew;2157
-ex;4680
-eu;14902
-ev;42340
-ez;22135
-fa;63928
-fe;43634
-eg;80738
-ef;12903
-ee;5048
-el;290098
-ei;43238
-ep;12318
-eo;10587
-en;335485
-em;71622
-et;118675
-es;241264
-er;463286
-eq;3244
-iet;12935
-ca;193265
-iel;2376
-iem;3048
-ien;21764
-br;28567
-bu;14993
-ier;21026
-ies;6799
-bo;19538
-ied;5076
-ieg;5135
-bl;16918
-bi;69828
-bb;39402
-be;48396
-da;148622
-a»;2807
-ifo;3073
-cu;45234
-cq;3815
-cr;32787
-iff;6668
-co;367348
-ife;7643
-cn;4164
-ck;3537
-ifi;11944
-cl;15623
-ci;160550
-ch;226932
-ce;115125
-cc;66503
-icu;5527
-ico;39486
-ici;29089
-ich;17182
-icc;6083
-ice;18994
-ica;52825
-az;77563
-ay;3307
-idu;3377
-ba;44840
-at;325061
-as;101920
-ido;3234
-ar;297807
-av;70088
-au;22365
-ak;2231
-idi;5354
-al;342564
-ai;36673
-ao;3436
-ap;48083
-ide;22575
-am;120493
-an;368702
-ac;61241
-ida;9688
-ad;57770
-ab;34321
-ag;73856
-ah;2573
-ae;9272
-af;17397
-nu;38023
-nt;322243
-ns;45490
-nq;9986
-no;313426
-nn;68557
-nz;57820
-l´;5259
-nv;16734
-oe;2117
-of;13481
-oc;61966
-od;25568
-oa;2822
-ob;19198
-om;106878
-on;494486
-ol;167132
-oi;21684
-og;48215
-ot;68449
-os;127275
-ov;65820
-ou;5606
-op;60917
-oo;5067
-or;261607
-ow;2552
-oz;4196
-pd;2545
-pe;198276
-pa;122419
-pl;14781
-po;157190
-pi;93329
-lo;124584
-ige;3136
-hé;7935
-lm;13764
-ll;277310
-ls;4032
-iga;2822
-lp;4935
-igl;14985
-lv;5243
-lu;42703
-lt;78047
-lz;2907
-igi;7224
-igu;3753
-ià;5832
-igo;2439
-ma;183289
-ign;4661
-mb;27792
-me;187425
-mi;117408
-mm;26928
-mp;71572
-mo;120734
-iò;2107
-mu;19959
-iù;22730
-na;201458
-nc;96419
-nd;135936
-ne;259821
-nf;22684
-ng;31075
-ni;193452
-nk;2004
-imo;21544
-imm;5216
-ju;2487
-imp;18517
-ime;20701
-jo;2223
-imi;14170
-ki;2956
-inc;23681
-ind;19164
-ke;3769
-ina;37918
-ka;2983
-inn;3120
-ino;24713
-inq;3239
-int;34878
-ins;9024
-ko;2390
-inf;11815
-ine;25864
-ing;12354
-ini;41303
-li;258622
-le;254363
-ioc;9177
-ld;8431
-lg;3909
-inu;7947
-la;338566
-inv;12350
-lc;17148
-lb;2474
-i»;2534
-dì;3082
-hi;59826
-ho;11947
-ila;13285
-id;47077
-ic;175515
-ib;27530
-ia;234138
-ig;43342
-if;32310
-ie;102239
-ilo;3141
-ir;57807
-is;156630
-it;185088
-ill;7551
-iu;33331
-iv;75464
-ilm;3845
-ili;32434
-il;223868
-im;109879
-in;365002
-io;284557
-ip;25131
-ile;22998
-ima;26110
-imb;2559
-l&;9755
-iz;46520
-ja;2318
-ilu;2174
-tà;38653
-wi;2417
-sì;6909
-rò;5792
-vv;12317
-wa;3810
-we;2723
-vi;104094
-vu;7623
-vr;9899
-vo;70667
-uz;9852
-uv;2324
-ve;133825
-rà;20552
-va;94876
-ui;45516
-ul;52336
-ue;82316
-uf;4966
-ug;10346
-ur;71730
-us;45987
-ut;87107
-um;19197
-un;208980
-uo;63873
-up;18417
-tu;75180
-tt;213870
-ub;14897
-ua;75680
-ud;17351
-uc;16024
-to;405150
-tr;189959
-te;306487
-ti;317244
-th;3194
-ta;354793
-su;94084
-sv;6456
-ss;144192
-st;276432
-sl;3301
-sm;8329
-sp;66463
-so;178863
-sq;18986
-sc;95886
-sf;8904
-se;181536
-sh;5856
-si;239462
-rz;9156
-sa;121282
-sb;3208
-rr;42751
-rs;66212
-rt;93493
-ru;24476
-rv;13683
-rp;5076
-ro;226150
-rn;40142
-rm;38838
-rl;20116
-rk;2625
-ri;336399
-rg;17281
-rf;2984
-re;434310
-rd;33977
-rc;42923
-rb;5463
-ra;315286
-o»;3454
-qu;135860
-pu;34310
-pp;42111
-pr;173934
-zz;43661
-zi;138066
-ze;12020
-za;64990
-zu;2285
-zo;16385
-ya;2008
-uò;4928
-ffr;3096
-ffe;9543
-ffa;3029
-ffi;11286
-fet;4406
-fes;7547
-fer;21267
-fed;2420
-fen;2855
-fia;3363
-fav;2159
-fas;3183
-fat;16250
-far;14704
-fam;4065
-fan;4392
-fal;2398
-fac;5960
-età;5853
-ezz;13205
-ezi;7479
-eta;8188
-ete;8481
-eti;5764
-esp;10459
-eso;5200
-est;76016
-ess;64343
-eto;3674
-etr;7898
-ett;72066
-eve;9862
-erà;7319
-eva;14807
-evo;7413
-evi;8857
-eur;13061
-erò;4902
-epa;2369
-epp;2204
-erl;5671
-eri;46701
-erg;5317
-ere;65467
-erf;2352
-erc;25861
-erd;5340
-era;53455
-equ;3229
-esi;25463
-esc;12630
-ese;28021
-esa;12681
-erz;2861
-erv;12432
-err;14765
-ert;20883
-ers;27592
-ern;15740
-erm;16223
-ero;25395
-ela;6526
-ele;16437
-eli;7023
-ell;155300
-elo;3751
-elt;3603
-emb;8796
-ema;9104
-eme;11134
-emm;2591
-emo;8527
-emi;10085
-emp;20255
-ene;24862
-eng;3612
-ena;12375
-end;33204
-eno;12685
-enn;6266
-eni;10069
-enu;7449
-ens;15573
-ent;165442
-enz;35641
-egl;15223
-ego;4683
-egn;11827
-egg;12145
-egi;9846
-egr;4026
-egu;7577
-edì;2269
-&rs;13163
-giu;16674
-gis;4515
-gir;3721
-gil;2239
-gin;7795
-gio;53248
-gic;2793
-gia;14199
-ghi;3828
-ghe;2688
-ggi;36763
-gge;7647
-gen;17328
-get;5932
-ger;8559
-ges;3055
-gel;2025
-&ld;2254
-gaz;4777
-gar;9163
-gat;8129
-gam;2575
-gal;3834
-gan;6726
-fuo;3445
-fut;2070
-fun;2584
-fra;11431
-fre;4239
-fri;2019
-fro;6040
-for;24279
-fos;3267
-fon;9563
-´a;2516
-fid;4425
-fic;21379
-fig;3766
-fil;5508
-fin;24849
-fio;2149
-fir;2025
-fis;3392
-fit;2162
-dac;3009
-dal;35562
-dai;4654
-dag;4721
-dat;14282
-dar;9076
-dan;7993
-dam;3306
-dav;4569
-ddi;3347
-cup;4688
-cun;7384
-cuo;2966
-cul;2808
-cui;8386
-cus;3597
-cur;9342
-cla;5074
-clu;5543
-cli;2908
-ché;7919
-cni;2777
-con;148784
-col;34576
-com;60113
-cor;37798
-cos;25235
-cop;5723
-cqu;3805
-cre;13298
-cra;2791
-cri;11113
-cro;4700
-ccu;4888
-cci;11218
-cch;9911
-cco;17290
-cca;11936
-cce;10539
-cev;2776
-cer;18385
-ces;14765
-cet;2692
-cen;24158
-cem;2186
-cel;8040
-ced;5434
-cha;2488
-cia;34618
-cie;7425
-cid;4582
-che;156815
-chi;52788
-civ;2268
-cil;5341
-cir;6060
-cis;8356
-cit;16856
-ciu;2181
-cin;11797
-cio;11808
-cip;6726
-ebb;18394
-ean;2491
-eal;6122
-eat;4382
-efi;3440
-eff;3800
-ega;13402
-edi;19153
-ede;18368
-eda;2765
-edu;3527
-edo;4133
-eci;15225
-ece;11841
-ecc;7956
-eca;2163
-ecu;3292
-eco;15536
-ecn;3943
-dur;5883
-dut;5254
-dor;2073
-dop;12536
-don;9750
-dom;6453
-dol;4538
-dov;12853
-dot;5468
-dos;2619
-due;11941
-duc;3331
-dqu;2263
-dri;2661
-dra;6479
-dre;4342
-dro;2667
-dic;19783
-did;2172
-dia;14379
-der;25367
-des;10533
-det;10411
-dev;6765
-deb;2315
-dec;8470
-def;2778
-deg;9833
-dei;26023
-del;159165
-den;23479
-dem;2951
-div;11342
-diz;5816
-dim;6150
-din;11510
-dio;7904
-dip;2455
-dir;12963
-dis;20576
-dit;9174
-die;5087
-dif;10933
-rga;4647
-rgi;3548
-rge;4091
-rgo;2571
-ret;17041
-res;53354
-rev;7821
-rez;7479
-reb;16683
-rea;13345
-ref;2169
-rec;10814
-red;8397
-rei;2359
-reg;14701
-rem;10240
-ren;21716
-rel;5408
-rer;3135
-rep;4320
-rda;6817
-rdo;6386
-rdi;12141
-rde;3232
-rco;5930
-rci;6415
-rch;13541
-rce;3724
-rca;12062
-raz;16101
-rap;7241
-rar;13195
-ras;9437
-rat;46099
-rav;8254
-rai;3502
-rag;11026
-ran;47054
-ram;10291
-ral;12410
-rab;2645
-raf;4651
-rad;10972
-rac;7854
-ror;2057
-ros;16404
-rot;6363
-rom;10620
-ron;17550
-rop;21143
-rov;17565
-rob;7262
-rod;7178
-roc;8380
-rol;7272
-rof;4950
-rog;8243
-rno;13752
-rna;13630
-rne;4790
-rni;7291
-rmo;2030
-rma;21256
-rme;6777
-rmi;7813
-rlu;2643
-rlo;5140
-rli;2015
-rla;8365
-riz;4206
-rip;7194
-rio;25407
-rir;3637
-rit;25811
-ris;32797
-riv;15409
-riu;3560
-rig;9407
-ril;5123
-rin;12932
-rim;30605
-ria;26853
-rib;6278
-ric;30943
-rid;5009
-rie;16033
-rif;7798
-rup;4432
-ruz;2198
-rus;2511
-rut;4656
-rva;2838
-rvi;5499
-rve;4630
-rsi;16382
-rso;20428
-rsa;7014
-rse;6323
-rta;20706
-rsq;13165
-rto;14043
-rte;21523
-rti;26623
-rtu;4695
-rro;5714
-rri;13920
-rre;12481
-rra;7814
-sab;4044
-sag;3059
-sal;9915
-sam;3624
-sap;3700
-san;14041
-sat;8866
-sar;22957
-rza;3215
-rzo;2860
-siz;4704
-siv;5644
-sie;4770
-sid;11151
-sic;11260
-sib;6929
-sia;16181
-sit;13151
-sis;8834
-sin;11880
-sio;23196
-sil;3918
-sim;15215
-sig;7616
-scr;5696
-scu;5597
-sca;12132
-sce;16609
-sci;19603
-sch;9297
-sco;25156
-ser;31859
-ses;3389
-set;9543
-sfi;2101
-sfo;2358
-seg;16447
-sed;3222
-sec;11082
-sen;26957
-sem;16409
-spo;15731
-spr;2828
-spe;25834
-spi;10650
-spa;8138
-sot;6912
-sol;23777
-som;2353
-son;43731
-sop;4615
-sor;10167
-sos;6031
-sog;5019
-sof;2824
-soc;8944
-squ;18958
-smo;4162
-sse;29657
-ssa;24488
-sso;33172
-ssi;47758
-ssu;6281
-ste;33062
-sta;95285
-sto;41445
-sti;45516
-stu;4864
-str;50256
-sua;8551
-sue;2207
-sub;3543
-suc;3937
-sui;3437
-sul;29019
-sum;2380
-sup;5130
-sun;4753
-suo;11925
-sur;3080
-svi;2840
-tal;26995
-tag;9680
-tab;3480
-tac;5455
-tad;3571
-taz;7871
-tav;5739
-tat;58890
-tas;3954
-tar;29341
-tan;38343
-tam;11390
-par;52129
-pat;6900
-pas;10018
-paz;4599
-pac;3919
-pad;2580
-pag;8944
-pae;4875
-pal;9718
-pan;4822
-pec;4111
-ped;2917
-pen;13836
-per;140257
-pet;14722
-pes;6323
-peg;3741
-pel;2938
-pla;2700
-pli;5604
-ple;4591
-pia;13193
-pic;5201
-pie;11365
-pin;4346
-pio;7746
-pir;4108
-pis;3470
-pit;7498
-piu;2653
-por;26478
-pop;2792
-pot;13451
-pos;31599
-poi;8800
-pon;9904
-pol;17669
-poc;6394
-ppr;5860
-ppu;3193
-ppi;5070
-ppl;2162
-ppo;14662
-ppa;6233
-ppe;4673
-più;22463
-pub;6665
-pra;7388
-pri;36080
-pre;66461
-pro;63139
-pur;4751
-put;2613
-pun;11283
-può;4905
-qua;43222
-quo;18446
-que;58828
-qui;15287
-l’;4555
-ngo;7086
-nge;6693
-nga;3346
-neg;5953
-nei;6599
-nel;49846
-nen;3879
-nem;2101
-ner;16442
-net;5973
-nes;11207
-nea;4660
-nec;2615
-nfi;4350
-nfo;3837
-nfr;2847
-nfa;4313
-nfe;5320
-ncr;2362
-nco;18637
-nci;18917
-ncl;2962
-nce;13127
-nch;32032
-nca;7568
-ndu;3319
-ndr;4340
-ndo;48092
-ndi;27429
-nde;23694
-nda;25704
-nal;28567
-nam;3869
-nan;8738
-nap;2300
-nar;11491
-nac;2021
-nai;2177
-nat;27328
-nas;3176
-naz;7231
-nvo;2099
-nvi;4370
-nve;9604
-l´a;2026
-nul;2280
-num;3974
-nun;4642
-nut;8945
-nuo;10263
-nua;3522
-nto;59351
-ntu;4354
-ntr;37516
-nti;66907
-nta;43749
-nte;106812
-nsu;3163
-nso;7230
-nse;8049
-nsi;15644
-nsa;7532
-nqu;9978
-nol;4620
-noi;4143
-nom;8111
-non;61009
-not;7502
-nos;13367
-nor;8247
-nov;5800
-nne;6662
-nna;6906
-nno;35876
-nni;15210
-nnu;3222
-nif;3745
-nie;6320
-nic;15297
-nia;6867
-niz;9098
-niv;2132
-nis;16517
-nit;13539
-nir;2785
-nio;5493
-nim;3420
-nin;2162
-ogr;5315
-ogi;4578
-ogl;8089
-ogo;2456
-ogn;10700
-oga;2555
-oge;3318
-ogg;9224
-oce;6270
-och;4187
-oci;10733
-oco;6814
-ocr;2244
-oca;13519
-occ;14111
-ode;4229
-odi;5789
-odo;8103
-ocu;2498
-odu;3206
-off;5347
-ofe;2040
-oba;3620
-obb;2536
-obl;4471
-obi;4753
-nza;32998
-nze;5798
-nzi;16457
-nzo;2267
-osì;5762
-ozi;2434
-oti;7312
-ote;11171
-ott;26267
-otr;6102
-oto;6983
-ost;42332
-ota;8419
-osi;15926
-ose;6277
-osp;4623
-oss;26349
-oso;4930
-ovi;8674
-ovr;5118
-ovo;5866
-ovv;3185
-ova;19158
-ove;21472
-opo;18636
-opp;9999
-ope;11360
-opa;2736
-opr;13837
-orm;14675
-orn;20924
-oro;15287
-orp;2595
-orr;9879
-ord;13837
-ore;35913
-org;5762
-ori;43765
-osa;10116
-osc;7029
-ort;35094
-ors;16024
-orz;4364
-ora;34056
-ola;22390
-old;2161
-oli;27218
-oll;13309
-ole;15708
-olg;2256
-olt;31966
-olo;34353
-olp;3735
-olu;5726
-ona;30888
-ond;31633
-onc;9157
-onf;10143
-one;100744
-ong;2479
-oni;53083
-onn;5062
-ono;62184
-ons;18580
-ont;48948
-onv;4112
-oma;13323
-ome;32523
-omb;3642
-omi;12233
-omm;8817
-omp;18013
-omo;5706
-omu;10195
-lch;3461
-lci;2881
-lcu;6746
-lco;3004
-ldi;2067
-ldq;2256
-lab;3475
-lan;17523
-lam;5782
-lar;17026
-lat;13109
-las;9261
-lau;2298
-lav;9821
-laz;6139
-lpi;2173
-lon;6669
-lom;2415
-lor;15806
-loc;6155
-log;7722
-los;3109
-lot;3323
-ll´;2376
-lme;9661
-lti;12649
-lto;12104
-ltr;23287
-ltu;2172
-lud;2218
-luc;3154
-lta;16396
-lte;7795
-lez;3034
-lev;4333
-les;8665
-let;11690
-ler;5155
-lem;7430
-len;9762
-leg;13140
-lec;2287
-lea;4377
-llu;3217
-lla;122083
-lle;56544
-lli;16539
-llo;31117
-ll&;4444
-lit;24496
-lis;9050
-lio;20815
-lin;14703
-lim;6550
-liz;11321
-liv;4008
-lic;15565
-lid;2171
-lia;33716
-lib;6515
-lig;2937
-lie;9724
-mac;2967
-mai;6719
-mad;2216
-mag;11434
-mar;17939
-mas;6965
-mal;6880
-man;31614
-maz;4291
-mat;17892
-mba;3494
-mbi;10288
-mbr;8947
-med;7726
-meg;2685
-met;12200
-mes;13316
-mer;21372
-men;86233
-mez;3076
-luz;2211
-lui;4876
-lup;2297
-lun;5579
-lut;5688
-lus;7431
-ltà;2812
-mpi;13046
-mpe;6721
-mpr;13527
-mpo;19234
-mpl;6263
-mob;2199
-mod;8441
-mon;15830
-mom;4142
-mol;12272
-mor;9170
-mos;6431
-mot;4185
-mpa;10531
-mus;3569
-mun;10717
-min;26582
-mio;3338
-mil;19446
-mis;8250
-mit;4951
-mic;10512
-mia;5054
-mig;8260
-mie;2761
-mmi;7496
-mmo;2689
-mma;8339
-mme;7834
-zzo;7556
-zzi;6001
-zze;2871
-zza;25194
-zaz;3042
-zan;2525
-zar;4485
-zat;8590
-zon;3136
-zia;19508
-zie;6757
-zio;99360
-vre;6164
-vut;4023
-vuo;2773
-vve;6673
-vvi;4526
-via;11424
-vio;4303
-vil;4998
-vin;10199
-vig;2683
-vic;6386
-vid;5813
-vie;5143
-viz;3613
-viv;3494
-vit;14684
-vis;16078
-voc;4688
-vog;3203
-vol;22643
-von;2318
-vor;12125
-vot;2778
-ver;47267
-ves;5224
-vet;2166
-vev;6896
-ven;25237
-vel;6876
-ved;8544
-vec;6493
-val;10744
-van;19921
-vam;3980
-var;8302
-vat;10102
-uzi;8563
-usi;6990
-use;2701
-usc;7915
-usa;7373
-ust;7768
-uss;3742
-uso;3825
-uti;12044
-ute;6651
-uta;10065
-utt;31298
-utu;2833
-uto;22346
-’a;2036
-ura;25578
-ure;9478
-uri;5902
-uro;17370
-urr;3021
-unz;2465
-uoi;3268
-uon;4663
-uol;5708
-uom;3708
-uov;10772
-uot;3755
-uor;3827
-upa;2818
-upe;5710
-upp;7594
-uma;3138
-ume;9822
-unt;15328
-unq;5046
-uni;20221
-uno;11494
-unc;4244
-una;54326
-ung;6980
-une;5497
-ult;16618
-ull;16133
-uli;2134
-ula;3059
-uid;2588
-uil;2232
-uin;5357
-uir;3647
-uis;4849
-uit;5657
-ugl;2758
-ude;5384
-udi;7963
-uce;2017
-ucc;6972
-uci;3147
-uer;2460
-ues;31305
-uff;4242
-uen;3581
-uel;18732
-uaz;2892
-uat;4839
-uas;2787
-uar;9762
-ual;21951
-uan;13964
-ubi;3602
-ubb;7761
-uad;6746
-tuz;2176
-tur;19590
-tut;28327
-tui;2562
-tun;3758
-tua;9105
-tud;3585
-ttà;2817
-tre;32487
-tra;72780
-tri;25788
-tru;7239
-tro;50273
-tta;38659
-tte;30833
-tti;49498
-tto;71161
-ttr;6719
-ttu;12651
-toc;2398
-tog;2143
-tos;4027
-tot;2208
-tom;2436
-ton;8783
-tol;7937
-tor;51066
-til;6482
-tif;3629
-tie;4953
-tir;7126
-tit;21535
-tis;5754
-tin;18132
-tim;19669
-tip;2676
-tio;4660
-tia;4050
-tic;30910
-tiz;4787
-tiv;29336
-tem;17101
-ten;31887
-tel;11102
-teg;5282
-tec;7362
-ted;2015
-tez;2381
-tev;2195
-tes;20244
-ter;59538
-bis;3906
-bit;7357
-bio;2832
-bil;25698
-bin;4308
-ble;4860
-bli;8037
-bol;3941
-bon;2330
-bor;4820
-bbl;7451
-bbi;9840
-bbe;16969
-bba;2358
-bam;2768
-ban;7494
-bal;3912
-bat;6828
-bas;8165
-bar;6283
-ber;15985
-ben;9756
-bel;4870
-bia;14137
-bie;4447
-car;23608
-cas;16768
-cat;28435
-cau;2434
-can;18072
-cap;11442
-caz;4224
-cav;2780
-cad;3787
-cam;18670
-cal;14524
-bri;5513
-bro;2537
-bra;9883
-bre;8201
-bru;2245
-buo;3457
-bus;2123
-aio;3783
-agl;11505
-agg;22318
-agi;11418
-agn;8675
-ago;4274
-anz;18399
-ano;51637
-ann;53276
-ant;57546
-ane;11105
-ang;5576
-ani;29731
-ana;15521
-anc;57890
-and;49325
-amm;9939
-amo;24149
-amp;14356
-ami;9557
-ame;38823
-amb;12076
-ama;7936
-alz;2694
-alv;2570
-alu;3618
-alt;24698
-alo;6826
-alm;8168
-all;84850
-ali;58024
-alc;16285
-ald;3196
-ale;59976
-ala;8913
-alb;2076
-abb;10411
-abi;14436
-abo;2680
-abr;2203
-aca;2417
-aff;10803
-afi;2737
-aga;7659
-age;4092
-aes;5353
-ado;5015
-adr;9503
-adi;9127
-add;3081
-ade;8576
-adu;2399
-acq;3788
-aco;5142
-aci;5374
-ace;7056
-acc;31069
-ada;5675
-azi;64109
-azz;12122
-arg;4597
-are;96546
-ard;14263
-arc;9982
-ara;22466
-aro;8237
-arm;6302
-arl;12055
-ari;44982
-arr;13812
-ars;7856
-art;35480
-asa;5762
-asf;2193
-asi;10801
-ash;2097
-asc;11926
-ase;5279
-aso;4830
-asp;4754
-apa;2936
-ape;5786
-api;7511
-apo;5509
-app;21014
-apr;3348
-arà;6733
-ava;14949
-aut;7909
-avr;4426
-avo;14382
-avi;5744
-ave;19033
-avv;9097
-avu;2090
-ata;43990
-ast;11715
-ass;36623
-atr;4195
-ato;119435
-ate;25316
-ati;56466
-att;64665
-atu;6348
-aum;2423
-aur;3159
-aus;4018
+_	5415203
+i	3266510
+a	3244536
+e	3187936
+o	2679040
+n	2133532
+t	1943612
+r	1916015
+l	1847505
+s	1497442
+c	1254943
+d	1092641
+e_	1065693
+a_	1022467
+o_	922697
+i_	871436
+u	871302
+p	852810
+m	771544
+_d	672617
+_c	526076
+_s	518530
+g	503150
+on	494486
+_p	468353
+er	463286
+_a	449089
+v	437964
+re	434310
+to	405150
+di	381968
+an	368702
+co	367348
+in	365002
+_i	359317
+ta	354793
+al	342564
+la	338566
+ri	336399
+en	335485
+h	328382
+at	325061
+nt	322243
+de	321768
+ti	317244
+ra	315286
+no	313426
+f	309907
+te	306487
+l_	299080
+ar	297807
+n_	293101
+_l	291693
+b	290516
+el	290098
+_di	285242
+io	284557
+z	281147
+ll	277310
+st	276432
+to_	272472
+or	261607
+ne	259821
+li	258622
+le	254363
+es	241264
+si	239462
+la_	238504
+ia	234138
+di_	232450
+_de	231187
+_e	230841
+_m	227550
+ch	226932
+ro	226150
+il	223868
+_co	218102
+tt	213870
+un	208980
+na	201458
+re_	199984
+pe	198276
+ni	193452
+ca	193265
+tr	189959
+me	187425
+it	185088
+ma	183289
+se	181536
+_n	180546
+so	178863
+_r	176508
+ic	175515
+pr	173934
+no_	170969
+ol	167132
+ent	165442
+he	162917
+o_d	161734
+ci	160550
+del	159165
+po	157190
+che	156815
+_t	156807
+is	156630
+_in	156622
+e_d	156301
+_u	155772
+ell	155300
+_f	153546
+le_	149536
+con	148784
+da	148622
+ss	144192
+he_	143021
+per	140257
+a_d	139306
+zi	138066
+ion	137907
+q	137230
+nd	135936
+qu	135860
+_g	135774
+il_	134738
+ve	133825
+_un	131070
+_ch	129048
+gi	128416
+os	127275
+lo	124584
+_pr	123559
+pa	122419
+lla	122083
+do	121571
+_la	121548
+_e_	121539
+ta_	121533
+sa	121282
+mo	120734
+_pe	120501
+am	120493
+ato	119435
+_v	118940
+et	118675
+mi	117408
+ti_	116936
+te_	116112
+ce	115125
+_al	112775
+ne_	112232
+_il	111562
+on_	110703
+a_s	110560
+im	109879
+r_	107110
+om	106878
+nte	106812
+a_c	106588
+i_d	106129
+vi	104094
+ie	102239
+as	101920
+one	100744
+e_a	100138
+zio	99360
+o_a	98566
+are	96546
+nc	96419
+e_s	95909
+sc	95886
+er_	95514
+sta	95285
+va	94876
+a_p	94865
+su	94084
+in_	93796
+rt	93493
+pi	93329
+el_	92203
+e_c	90509
+i_s	90067
+e_i	89808
+_da	87947
+ut	87107
+men	86233
+o_s	86135
+_q	85835
+_qu	85443
+_ri	84976
+all	84850
+na_	84495
+o_c	84291
+ra_	83850
+e_p	83634
+_b	83194
+_a_	83007
+i_c	82885
+si_	82518
+ue	82316
+_se	81920
+_so	81031
+eg	80738
+è	79780
+e_l	78709
+i_a	78586
+è_	78435
+_ma	78401
+_si	78376
+lt	78047
+_no	77766
+az	77563
+o_i	76899
+fi	76597
+_pa	76054
+est	76016
+i_p	75913
+gl	75730
+ua	75680
+li_	75499
+iv	75464
+tu	75180
+ni_	74953
+_st	74505
+ag	73856
+un_	73538
+_ca	73436
+tra	72780
+_su	72438
+gli	72401
+io_	72166
+ett	72066
+ur	71730
+em	71622
+mp	71572
+ia_	71452
+_o	71249
+tto	71161
+vo	70667
+av	70088
+ha	70052
+_po	69921
+bi	69828
+_h	68877
+o_p	68671
+ro_	68582
+nn	68557
+ot	68449
+_ne	67760
+à	67215
+nti	66907
+cc	66503
+sp	66463
+pre	66461
+rs	66212
+_è	66077
+lo_	65906
+ov	65820
+_è_	65673
+ere	65467
+za	64990
+att	64665
+ess	64343
+azi	64109
+a_a	64074
+fa	63928
+uo	63873
+ec	63845
+_an	63744
+ed	63392
+pro	63139
+ono	62184
+oc	61966
+ac	61241
+non	61009
+op	60917
+_ha	60390
+ma_	60311
+com	60113
+ale	59976
+hi	59826
+ter	59538
+nto	59351
+ist	59223
+tat	58890
+que	58828
+_le	58387
+ali	58024
+anc	57890
+nz	57820
+ir	57807
+ad	57770
+ant	57546
+à_	56792
+lle	56544
+ati	56466
+al_	54505
+una	54326
+era	53455
+res	53354
+ann	53276
+gio	53248
+oni	53083
+da_	52948
+ica	52825
+chi	52788
+do_	52638
+ul	52336
+par	52129
+ano	51637
+ita	51197
+tor	51066
+so_	50737
+o_l	50467
+a_i	50363
+tro	50273
+str	50256
+ri_	49997
+nel	49846
+_fa	49804
+tti	49498
+and	49325
+_gi	49085
+ont	48948
+a_l	48839
+l_p	48630
+be	48396
+og	48215
+ndo	48092
+ap	48083
+ha_	48071
+i_e	47945
+ssi	47758
+ga	47653
+ver	47267
+_mo	47145
+id	47077
+ran	47054
+ge	47005
+eri	46701
+_mi	46577
+iz	46520
+_pi	46398
+gg	46372
+rat	46099
+_me	46044
+us	45987
+_tr	45921
+_re	45867
+i_i	45862
+ui	45516
+sti	45516
+ns	45490
+cu	45234
+ari	44982
+ba	44840
+mo_	44724
+_vi	44383
+se_	44267
+ata	43990
+ori	43765
+nta	43749
+son	43731
+zz	43661
+fe	43634
+ig	43342
+ei	43238
+qua	43222
+_i_	43171
+fo	43066
+e_e	42998
+rc	42923
+_te	42798
+rr	42751
+lu	42703
+a_m	42684
+ev	42340
+ost	42332
+e_n	42308
+a_r	42155
+pp	42111
+sto	41445
+ini	41303
+l_c	40730
+rn	40142
+gr	39817
+o_e	39584
+ico	39486
+bb	39402
+ei_	38874
+rm	38838
+ame	38823
+a_f	38760
+tta	38659
+tà	38653
+_do	38633
+ito	38391
+tan	38343
+gn	38071
+nu	38023
+a_e	37923
+ina	37918
+cor	37798
+ntr	37516
+_sa	37235
+ggi	36763
+ai	36673
+ass	36623
+_sc	36205
+pri	36080
+du	36074
+_fi	35989
+ore	35913
+nno	35876
+a_n	35645
+enz	35641
+dal	35562
+art	35480
+go	35356
+za_	35301
+ort	35094
+int	34878
+cia	34618
+sa_	34616
+col	34576
+olo	34353
+_ci	34348
+ab	34321
+pu	34310
+i_m	34290
+ora	34056
+rd	33977
+i_r	33777
+lia	33716
+_ve	33657
+iu	33331
+end	33204
+sso	33172
+ca_	33073
+ste	33062
+nza	32998
+ris	32797
+cr	32787
+me_	32758
+n_c	32622
+ome	32523
+tre	32487
+ili	32434
+co_	32423
+if	32310
+ian	32163
+nch	32032
+olt	31966
+ten	31887
+ser	31859
+ond	31633
+man	31614
+pos	31599
+e_m	31518
+n_p	31324
+ues	31305
+utt	31298
+d_	31193
+llo	31117
+ng	31075
+acc	31069
+_es	31003
+i_t	30997
+ric	30943
+tic	30910
+ff	30904
+ona	30888
+tte	30833
+a_v	30706
+rim	30605
+va_	30511
+ea	30354
+e_u	29875
+ani	29731
+tà_	29725
+izi	29671
+sse	29657
+_lo	29495
+tar	29341
+tiv	29336
+_sp	29213
+ici	29089
+sul	29019
+a_t	28856
+e_r	28814
+br	28567
+nal	28567
+ci_	28466
+cat	28435
+tut	28327
+ese	28021
+l_m	28001
+mb	27792
+po_	27755
+l_s	27740
+o_n	27609
+ers	27592
+ib	27530
+ndi	27429
+nat	27328
+iam	27227
+oli	27218
+tal	26995
+sen	26957
+mm	26928
+_av	26912
+i_f	26906
+ria	26853
+i_u	26640
+rti	26623
+min	26582
+a_g	26536
+por	26478
+i_n	26470
+o_m	26386
+ce_	26353
+oss	26349
+ott	26267
+ima	26110
+n_s	26039
+dei	26023
+e_f	25967
+ior	25966
+i_l	25917
+ine	25864
+erc	25861
+spe	25834
+rit	25811
+tri	25788
+o_u	25738
+nda	25704
+bil	25698
+ura	25578
+od	25568
+fr	25555
+gu	25554
+ità	25473
+esi	25463
+rio	25407
+ero	25395
+der	25367
+ate	25316
+gra	25301
+ven	25237
+cos	25235
+zza	25194
+sco	25156
+ip	25131
+ire	24883
+ene	24862
+fin	24849
+ino	24713
+alt	24698
+_fo	24641
+_ra	24627
+_pu	24539
+lit	24496
+ssa	24488
+ru	24476
+k	24397
+for	24279
+eb	24258
+cen	24158
+amo	24149
+i_g	23906
+a_u	23822
+sol	23777
+e_t	23723
+nde	23694
+inc	23681
+_tu	23657
+ù	23636
+car	23608
+den	23479
+ltr	23287
+_ba	23281
+sio	23196
+ile	22998
+sar	22957
+de_	22862
+_ce	22813
+iù	22730
+_gr	22712
+nf	22684
+iat	22671
+vol	22643
+ide	22575
+ara	22466
+più	22463
+ola	22390
+o_r	22377
+au	22365
+uto	22346
+agg	22318
+ive	22240
+ai_	22152
+ez	22135
+ù_	22123
+ual	21951
+iti	21892
+iva	21801
+ien	21764
+ren	21716
+oi	21684
+n_a	21586
+imo	21544
+tit	21535
+iù_	21530
+rte	21523
+ove	21472
+fic	21379
+o_t	21377
+mer	21372
+i_v	21347
+fer	21267
+rma	21256
+_li	21182
+rop	21143
+mi_	21114
+ier	21026
+app	21014
+orn	20924
+ert	20883
+ue_	20855
+e_g	20823
+lio	20815
+o_f	20717
+rta	20706
+ime	20701
+e_v	20681
+_vo	20669
+dis	20576
+rà	20552
+rso	20428
+emp	20255
+tes	20244
+uni	20221
+rl	20116
+iar	20083
+mu	19959
+van	19921
+dic	19783
+rà_	19719
+tim	19669
+sci	19603
+tur	19590
+y	19561
+bo	19538
+zia	19508
+l_t	19473
+mil	19446
+itt	19392
+a_b	19341
+mpo	19234
+ob	19198
+um	19197
+ind	19164
+ova	19158
+edi	19153
+ave	19033
+ice	18994
+sq	18986
+squ	18958
+nci	18917
+uel	18732
+cam	18670
+nco	18637
+opo	18636
+ons	18580
+imp	18517
+ve_	18481
+_be	18462
+_gl	18458
+quo	18446
+up	18417
+anz	18399
+ebb	18394
+cer	18385
+ede	18368
+isc	18266
+_im	18200
+_du	18162
+ial	18134
+tin	18132
+can	18072
+omp	18013
+s_	17949
+mar	17939
+mat	17892
+n_l	17887
+&	17721
+pol	17669
+dr	17656
+_ad	17644
+r_l	17572
+rov	17565
+ron	17550
+lan	17523
+af	17397
+uro	17370
+ud	17351
+gen	17328
+cco	17290
+rg	17281
+ich	17182
+lc	17148
+a_q	17125
+tem	17101
+vo_	17082
+ret	17041
+lar	17026
+o_g	16972
+bbe	16969
+_va	16960
+bl	16918
+cit	16856
+_cr	16825
+cas	16768
+l_g	16745
+nv	16734
+reb	16683
+giu	16674
+ult	16618
+sce	16609
+w	16594
+_ar	16592
+lli	16539
+ui_	16531
+nis	16517
+nzi	16457
+seg	16447
+ner	16442
+ele	16437
+_ta	16430
+sem	16409
+ros	16404
+lta	16396
+zo	16385
+rsi	16382
+n_i	16381
+alc	16285
+fat	16250
+n_u	16238
+erm	16223
+izz	16195
+sia	16181
+ull	16133
+raz	16101
+_nu	16090
+vis	16078
+e_q	16072
+rie	16033
+uc	16024
+ors	16024
+ber	15985
+osi	15926
+e_o	15918
+_at	15902
+ie_	15874
+mon	15830
+e_h	15821
+lor	15806
+ern	15740
+spo	15731
+ole	15708
+nsi	15644
+cl	15623
+ens	15573
+lic	15565
+ivi	15552
+eco	15536
+_fr	15531
+ana	15521
+_ap	15468
+_ro	15427
+riv	15409
+n_m	15338
+unt	15328
+gna	15315
+nic	15297
+l_r	15290
+qui	15287
+oro	15287
+eci	15225
+egl	15223
+ivo	15216
+sim	15215
+nni	15210
+t_	15139
+isp	15073
+è_s	15066
+ò	15037
+bu	14993
+igl	14985
+ava	14949
+eu	14902
+ub	14897
+fu	14888
+han	14853
+eva	14807
+pl	14781
+err	14765
+ces	14765
+_cu	14726
+pet	14722
+l_d	14711
+far	14704
+lin	14703
+reg	14701
+vit	14684
+orm	14675
+ppo	14662
+_or	14607
+_lu	14569
+_ge	14531
+cal	14524
+abi	14436
+avo	14382
+dia	14379
+u_	14372
+amp	14356
+»	14295
+dat	14282
+ard	14263
+gia	14199
+imi	14170
+oi_	14149
+bia	14137
+occ	14111
+rto	14043
+san	14041
+uan	13964
+rri	13920
+i_b	13871
+_as	13860
+opr	13837
+ord	13837
+pen	13836
+arr	13812
+be_	13784
+lm	13764
+rno	13752
+_to	13709
+rv	13683
+rna	13630
+rch	13541
+nit	13539
+mpr	13527
+oca	13519
+à_d	13486
+of	13481
+pot	13451
+hia	13432
+ega	13402
+nos	13367
+r_i	13353
+rea	13345
+_fe	13332
+oma	13323
+mes	13316
+oll	13309
+i_o	13301
+cre	13298
+_ac	13285
+ila	13285
+o_v	13256
+ezz	13205
+rar	13195
+pia	13193
+hi_	13186
+&r	13169
+rsq	13165
+&rs	13163
+sit	13151
+leg	13140
+nce	13127
+lat	13109
+ò_	13091
+eur	13061
+mpi	13046
+_na	13000
+dir	12963
+isi	12952
+iet	12935
+rin	12932
+ef	12903
+ad_	12860
+dov	12853
+eno	12685
+esa	12681
+ttu	12651
+lti	12649
+iss	12648
+esc	12630
+_am	12605
+«	12584
+e_b	12552
+dop	12536
+rre	12481
+erv	12432
+ral	12410
+_er	12387
+ena	12375
+ing	12354
+inv	12350
+ep	12318
+vv	12317
+ibi	12297
+mol	12272
+omi	12233
+met	12200
+egg	12145
+rdi	12141
+sca	12132
+vor	12125
+azz	12122
+lto	12104
+amb	12076
+i_q	12071
+rca	12062
+arl	12055
+uti	12044
+ze	12020
+ho	11947
+ifi	11944
+due	11941
+i_h	11937
+cca	11936
+asc	11926
+suo	11925
+n_d	11914
+sin	11880
+ece	11841
+i_è	11829
+egn	11827
+inf	11815
+cio	11808
+cin	11797
+_ai	11765
+ast	11715
+let	11690
+ì	11663
+l_f	11642
+n_t	11626
+_fu	11617
+o_è	11527
+din	11510
+agl	11505
+uno	11494
+nar	11491
+_ag	11457
+cap	11442
+mag	11434
+fra	11431
+via	11424
+agi	11418
+_eu	11414
+tam	11390
+pie	11365
+ope	11360
+div	11342
+liz	11321
+iso	11302
+ffi	11286
+pun	11283
+e_è	11269
+sic	11260
+n_g	11251
+cci	11218
+nes	11207
+ote	11171
+_ti	11157
+sid	11151
+eme	11134
+cri	11113
+ane	11105
+tel	11102
+o_b	11091
+sec	11082
+rag	11026
+rad	10972
+dif	10933
+rec	10814
+aff	10803
+asi	10801
+uov	10772
+val	10744
+_ab	10735
+oci	10733
+ul_	10732
+mun	10717
+ogn	10700
+_ga	10696
+é	10688
+spi	10650
+rom	10620
+eo	10587
+cce	10539
+des	10533
+mpa	10531
+mic	10512
+esp	10459
+_bi	10445
+gno	10439
+abb	10411
+det	10411
+n_r	10373
+l_n	10361
+ug	10346
+su_	10325
+ram	10291
+ua_	10291
+mbi	10288
+nuo	10263
+_it	10244
+rem	10240
+vin	10199
+omu	10195
+hie	10184
+sor	10167
+ite	10146
+onf	10143
+_ed	10129
+osa	10116
+vat	10102
+emi	10085
+eni	10069
+o_q	10067
+uta	10065
+x	10050
+a_è	10030
+pas	10018
+opp	9999
+_go	9998
+nq	9986
+arc	9982
+nqu	9978
+o_o	9977
+amm	9939
+a_o	9926
+sal	9915
+cch	9911
+pon	9904
+vr	9899
+bra	9883
+orr	9879
+eve	9862
+uz	9852
+egi	9846
+bbi	9840
+deg	9833
+ume	9822
+lav	9821
+len	9762
+uar	9762
+ben	9756
+l&	9755
+don	9750
+lie	9724
+pal	9718
+_og	9704
+ida	9688
+tag	9680
+lme	9661
+l&r	9636
+j	9635
+itu	9612
+nve	9604
+ed_	9598
+gni	9576
+l_l	9576
+zo_	9572
+fon	9563
+ami	9557
+ffe	9543
+set	9543
+_bo	9507
+adr	9503
+é_	9494
+ure	9478
+vi_	9466
+_br	9454
+ras	9437
+rig	9407
+cur	9342
+sch	9297
+an_	9282
+n_q	9274
+ae	9272
+las	9261
+gua	9245
+ogg	9224
+ioc	9177
+dit	9174
+mor	9170
+gar	9163
+onc	9157
+rz	9156
+r_c	9131
+adi	9127
+tua	9105
+ema	9104
+niz	9098
+avv	9097
+dar	9076
+ì_	9058
+lis	9050
+gi_	9043
+n_e	9042
+ins	9024
+mbr	8947
+nut	8945
+soc	8944
+pag	8944
+n_f	8938
+ala	8913
+sf	8904
+_au	8902
+uo_	8883
+sat	8866
+evi	8857
+sis	8834
+omm	8817
+poi	8800
+emb	8796
+ton	8783
+_o_	8769
+nan	8738
+n_v	8734
+ius	8703
+agn	8675
+ovi	8674
+les	8665
+zat	8590
+o_h	8582
+ade	8576
+uzi	8563
+ger	8559
+l_v	8557
+sua	8551
+ved	8544
+emo	8527
+ete	8481
+dec	8470
+mod	8441
+ld	8431
+ota	8419
+red	8397
+cui	8386
+roc	8380
+rla	8365
+cis	8356
+mma	8339
+sm	8329
+var	8302
+mig	8260
+rav	8254
+mis	8250
+nor	8247
+rog	8243
+aro	8237
+bre	8201
+eta	8188
+gh	8170
+alm	8168
+bas	8165
+spa	8138
+_«	8131
+gat	8129
+_gu	8123
+nom	8111
+odo	8103
+ogl	8089
+iun	8076
+l_b	8073
+nse	8049
+cel	8040
+bli	8037
+dan	7993
+udi	7963
+ecc	7956
+m_	7950
+inu	7947
+tol	7937
+ama	7936
+hé	7935
+ché	7919
+usc	7915
+aut	7909
+dio	7904
+etr	7898
+è_u	7886
+taz	7871
+ars	7856
+rac	7854
+mme	7834
+_af	7830
+rev	7821
+rra	7814
+rmi	7813
+rif	7798
+gin	7795
+lte	7795
+ust	7768
+ubb	7761
+pio	7746
+_el	7726
+med	7726
+log	7722
+aga	7659
+gge	7647
+ife	7643
+vu	7623
+sig	7616
+_en	7611
+upp	7594
+egu	7577
+nca	7568
+zzo	7556
+ill	7551
+fes	7547
+y_	7538
+nsa	7532
+_cl	7524
+api	7511
+not	7502
+pit	7498
+mmi	7496
+ban	7494
+hé_	7494
+_bu	7493
+ezi	7479
+rez	7479
+bbl	7451
+enu	7449
+lus	7431
+lem	7430
+cie	7425
+´	7421
+evo	7413
+d_a	7407
+pra	7388
+cun	7384
+usa	7373
+ea_	7368
+tec	7362
+bit	7357
+n_b	7336
+_mu	7331
+erà	7319
+oti	7312
+rni	7291
+rol	7272
+rob	7262
+rap	7241
+tru	7239
+naz	7231
+nso	7230
+igi	7224
+rip	7194
+rod	7178
+ira	7174
+tir	7126
+è_i	7120
+ngo	7086
+ace	7056
+osc	7029
+eli	7023
+rsa	7014
+usi	6990
+oto	6983
+ung	6980
+ucc	6972
+mas	6965
+sib	6929
+sot	6912
+sì	6909
+nna	6906
+pat	6900
+gol	6898
+vev	6896
+mal	6880
+vel	6876
+nia	6867
+bat	6828
+alo	6826
+rda	6817
+oco	6814
+a_h	6807
+è_a	6800
+ies	6799
+rme	6777
+dev	6765
+zie	6757
+lcu	6746
+uad	6746
+arà	6733
+gan	6726
+cip	6726
+ga_	6725
+mpe	6721
+mai	6719
+ttr	6719
+nge	6693
+vve	6673
+zi_	6670
+lon	6669
+iff	6668
+pub	6665
+nne	6662
+ute	6651
+dd	6642
+_j	6619
+nei	6599
+_op	6589
+lim	6550
+iri	6545
+’	6529
+ela	6526
+lib	6515
+vec	6493
+til	6482
+dra	6479
+_w	6465
+sv	6456
+dom	6453
+mos	6431
+rci	6415
+gui	6410
+ho_	6398
+poc	6394
+rdo	6386
+vic	6386
+rot	6363
+atu	6348
+rse	6323
+pes	6323
+è_c	6321
+nie	6320
+go_	6309
+arm	6302
+bar	6283
+ssu	6281
+rib	6278
+ose	6277
+gon	6276
+oce	6270
+enn	6266
+mpl	6263
+ppa	6233
+ze_	6221
+vre	6164
+n_è	6156
+loc	6155
+dim	6150
+r_a	6142
+laz	6139
+eal	6122
+gre	6103
+otr	6102
+icc	6083
+ipa	6082
+r_p	6065
+cir	6060
+r_d	6048
+fro	6040
+sos	6031
+fa_	6006
+zzi	6001
+net	5973
+fac	5960
+neg	5953
+get	5932
+rco	5930
+r_s	5904
+uri	5902
+_sv	5894
+dur	5883
+ge_	5872
+ovo	5866
+ppr	5860
+sh	5856
+età	5853
+è_p	5847
+ià	5832
+diz	5816
+vid	5813
+nov	5800
+iut	5798
+nze	5798
+rò	5792
+odi	5789
+ape	5786
+_k	5783
+lam	5782
+già	5781
+isu	5771
+eti	5764
+asa	5762
+osì	5762
+org	5762
+tis	5754
+_ho	5751
+avi	5744
+tav	5739
+olu	5726
+cop	5723
+rro	5714
+upe	5710
+uol	5708
+omo	5706
+scr	5696
+lut	5688
+ada	5675
+erl	5671
+uit	5657
+ià_	5649
+siv	5644
+à_a	5620
+ou	5606
+pli	5604
+scu	5597
+lun	5579
+ang	5576
+iov	5560
+clu	5543
+icu	5527
+bri	5513
+apo	5509
+fil	5508
+rvi	5499
+une	5497
+nio	5493
+isa	5469
+dot	5468
+rb	5463
+tac	5455
+ced	5434
+_is	5429
+rel	5408
+gue	5405
+sì_	5402
+ude	5384
+aci	5374
+uin	5357
+idi	5354
+aes	5353
+ipo	5347
+off	5347
+cil	5341
+erd	5340
+pi_	5340
+pa_	5335
+nfe	5320
+erg	5317
+ogr	5315
+teg	5282
+ase	5279
+_z	5272
+l´	5259
+dut	5254
+lv	5243
+ves	5224
+_us	5222
+imm	5216
+pic	5201
+eso	5200
+ler	5155
+vie	5143
+aco	5142
+rlo	5140
+ieg	5135
+sup	5130
+_sq	5128
+ril	5123
+ovr	5118
+n_h	5111
+die	5087
+rp	5076
+ied	5076
+cla	5074
+è_d	5072
+ppi	5070
+oo	5067
+onn	5062
+mia	5054
+ee	5048
+unq	5046
+gov	5024
+sog	5019
+ado	5015
+rid	5009
+vil	4998
+d_e	4978
+uf	4966
+tie	4953
+mit	4951
+rof	4950
+_ru	4944
+lp	4935
+è_l	4933
+fl	4931
+oso	4930
+uò	4928
+_ot	4921
+può	4905
+erò	4902
+ccu	4888
+lui	4876
+pae	4875
+à_i	4873
+bel	4870
+stu	4864
+ble	4860
+_sf	4853
+uis	4849
+uat	4839
+uò_	4835
+aso	4830
+pan	4822
+bor	4820
+iaz	4816
+irc	4809
+ar_	4794
+rne	4790
+tiz	4787
+gaz	4777
+sie	4770
+­	4764
+_ec	4755
+asp	4754
+sun	4753
+obi	4753
+pur	4751
+dag	4721
+_ol	4720
+siz	4704
+cro	4700
+rtu	4695
+cup	4688
+voc	4688
+ego	4683
+ex	4680
+_ul	4675
+ppe	4673
+n_o	4667
+uon	4663
+ign	4661
+nea	4660
+tio	4660
+rut	4656
+dai	4654
+raf	4651
+rga	4647
+nun	4642
+_os	4638
+rve	4630
+osp	4623
+nol	4620
+sop	4615
+paz	4599
+arg	4597
+ple	4591
+cid	4582
+ogi	4578
+dav	4569
+l’	4555
+n_n	4547
+dol	4538
+iud	4528
+vvi	4526
+_ev	4523
+gis	4515
+ibe	4491
+zar	4485
+obl	4471
+iro	4452
+bie	4447
+ll&	4444
+rò_	4441
+_oc	4440
+g_	4439
+her	4433
+rup	4432
+x_	4426
+avr	4426
+fid	4425
+r_u	4415
+à_c	4412
+fet	4406
+_l&	4404
+ism	4401
+fan	4392
+eat	4382
+lea	4377
+nvi	4370
+orz	4364
+ntu	4354
+nfi	4350
+pin	4346
+hiu	4342
+dre	4342
+ndr	4340
+lev	4333
+rep	4320
+ios	4316
+nfa	4313
+bin	4308
+vio	4303
+r_r	4295
+maz	4291
+k_	4277
+ago	4274
+iac	4252
+_az	4248
+unc	4244
+uff	4242
+fre	4239
+ode	4229
+caz	4224
+riz	4206
+oz	4196
+atr	4195
+gru	4188
+och	4187
+mot	4185
+cn	4164
+smo	4162
+hio	4160
+h_	4158
+à_p	4152
+noi	4143
+mom	4142
+edo	4133
+ipe	4126
+onv	4112
+pec	4111
+pir	4108
+age	4092
+rge	4091
+en_	4073
+fam	4065
+_em	4054
+tia	4050
+sab	4044
+ls	4032
+tos	4027
+egr	4026
+vut	4023
+aus	4018
+liv	4008
+vam	3980
+num	3974
+tas	3954
+ecn	3943
+bol	3941
+suc	3937
+ol_	3933
+r_e	3923
+pac	3919
+sil	3918
+bal	3912
+lg	3909
+r_f	3909
+bis	3906
+iol	3892
+p_	3883
+nen	3879
+nam	3869
+ilm	3845
+nfo	3837
+gal	3834
+à_s	3829
+ghi	3828
+uor	3827
+uso	3825
+cq	3815
+wa	3810
+cqu	3805
+eff	3800
+acq	3788
+cad	3787
+l_q	3786
+aio	3783
+eo_	3780
+ke	3769
+fig	3766
+tun	3758
+uot	3755
+igu	3753
+elo	3751
+nif	3745
+hin	3744
+uss	3742
+peg	3741
+olp	3735
+r_q	3726
+rce	3724
+gir	3721
+uom	3708
+sap	3700
+_ut	3674
+eto	3674
+c_	3656
+uir	3647
+omb	3642
+rir	3637
+tif	3629
+sam	3624
+oba	3620
+alu	3618
+viz	3613
+eng	3612
+elt	3603
+ubi	3602
+cus	3597
+r_t	3588
+tud	3585
+uen	3581
+ibu	3575
+tad	3571
+mus	3569
+r_m	3567
+riu	3560
+rgi	3548
+sub	3543
+ck	3537
+edu	3527
+nua	3522
+rai	3502
+mba	3494
+viv	3494
+d_u	3483
+tab	3480
+lab	3475
+pis	3470
+lch	3461
+buo	3457
+o»	3454
+fuo	3445
+efi	3440
+sui	3437
+ao	3436
+nim	3420
+e»	3416
+fis	3392
+or_	3391
+ses	3389
+à_e	3384
+idu	3377
+fia	3363
+apr	3348
+ddi	3347
+nga	3346
+mio	3338
+duc	3331
+lot	3323
+ndu	3319
+oge	3318
+ay	3307
+dam	3306
+sl	3301
+ecu	3292
+_&	3284
+uoi	3268
+fos	3267
+eq	3244
+inq	3239
+ido	3234
+rde	3232
+equ	3229
+sed	3222
+nnu	3222
+llu	3217
+rza	3215
+ise	3212
+sb	3208
+odu	3206
+vog	3203
+et_	3197
+ald	3196
+th	3194
+ppu	3193
+ovv	3185
+fas	3183
+nas	3176
+nsu	3163
+aur	3159
+luc	3154
+_of	3152
+uci	3147
+_bl	3143
+ilo	3141
+uma	3138
+ige	3136
+zon	3136
+rer	3135
+inn	3120
+los	3109
+_ni	3101
+ffr	3096
+dì	3082
+add	3081
+sur	3080
+mez	3076
+ifo	3073
+sag	3059
+ula	3059
+d_i	3058
+ges	3055
+iem	3048
+zaz	3042
+lez	3034
+ffa	3029
+ù_d	3024
+urr	3021
+_ie	3018
+dac	3009
+lco	3004
+rf	2984
+ka	2983
+mac	2967
+cuo	2966
+ncl	2962
+r_g	2960
+ki	2956
+dem	2951
+pel	2938
+lig	2937
+apa	2936
+ipr	2932
+ped	2917
+cli	2908
+lz	2907
+iba	2906
+uaz	2892
+lci	2881
+_vu	2872
+zze	2871
+erz	2861
+rzo	2860
+fen	2855
+nfr	2847
+_ef	2844
+svi	2840
+rva	2838
+ng_	2833
+utu	2833
+bio	2832
+spr	2828
+sof	2824
+oa	2822
+iga	2822
+upa	2818
+ttà	2817
+ex_	2816
+ltà	2812
+cul	2808
+a»	2807
+_ob	2805
+itr	2805
+gic	2793
+pop	2792
+cra	2791
+uas	2787
+nir	2785
+cav	2780
+def	2778
+vot	2778
+cni	2777
+cev	2776
+vuo	2773
+bam	2768
+eda	2765
+mie	2761
+ugl	2758
+afi	2737
+opa	2736
+à_l	2730
+we	2723
+ias	2711
+b_	2703
+use	2701
+pla	2700
+es_	2696
+alz	2694
+cet	2692
+mmo	2689
+ghe	2688
+meg	2685
+vig	2683
+abo	2680
+è_r	2678
+tip	2676
+dro	2667
+gor	2662
+dri	2661
+piu	2653
+rab	2645
+rlu	2643
+_id	2641
+ibr	2628
+rk	2625
+dos	2619
+nec	2615
+put	2613
+orp	2595
+emm	2591
+uid	2588
+fun	2584
+pad	2580
+gam	2575
+ah	2573
+rgo	2571
+alv	2570
+tui	2562
+imb	2559
+oga	2555
+ow	2552
+pd	2545
+bro	2537
+obb	2536
+i»	2534
+dì_	2529
+rd_	2526
+zan	2525
+`	2519
+´a	2516
+rus	2511
+ocu	2498
+ean	2491
+t_d	2489
+cha	2488
+ju	2487
+ong	2479
+lb	2474
+r_n	2473
+»_	2469
+_y	2466
+unz	2465
+uer	2460
+ogo	2456
+dip	2455
+igo	2439
+tom	2436
+&l	2435
+cau	2434
+ozi	2434
+aum	2423
+fed	2420
+wi	2417
+aca	2417
+lom	2415
+st_	2403
+adu	2399
+fal	2398
+toc	2398
+ko	2390
+it_	2388
+tez	2381
+sum	2380
+iel	2376
+ll´	2376
+epa	2369
+_on	2365
+ncr	2362
+rei	2359
+bba	2358
+sfo	2358
+è_m	2357
+_l´	2356
+som	2353
+erf	2352
+ù_c	2347
+gur	2336
+_ir	2335
+_sb	2335
+_uo	2333
+bon	2330
+uv	2324
+ja	2318
+von	2318
+deb	2315
+pe_	2312
+iag	2305
+nap	2300
+lau	2298
+lup	2297
+lec	2287
+zu	2285
+nul	2280
+gri	2273
+edì	2269
+civ	2268
+nzo	2267
+dq	2264
+dqu	2263
+olg	2256
+ldq	2256
+&ld	2254
+bru	2245
+ocr	2244
+gil	2239
+uil	2232
+ak	2231
+r_v	2231
+jo	2223
+ù_a	2219
+lud	2218
+mad	2216
+luz	2211
+tot	2208
+sue	2207
+epp	2204
+abr	2203
+_ju	2202
+mob	2199
+ruz	2198
+tev	2195
+asf	2193
+cem	2186
+ciu	2181
+nai	2177
+is_	2176
+tuz	2176
+ilu	2174
+lpi	2173
+did	2172
+ltu	2172
+lid	2171
+ref	2169
+è_q	2168
+vet	2166
+eca	2163
+fit	2162
+ppl	2162
+nin	2162
+old	2161
+_l’	2160
+fav	2159
+ew	2157
+fio	2149
+tog	2143
+uli	2134
+niv	2132
+bus	2123
++	2121
+oe	2117
+_pl	2110
+iò	2107
+sfi	2101
+nem	2101
+nvo	2099
+ash	2097
+a_j	2093
+avu	2090
+alb	2076
+_pd	2073
+dor	2073
+fut	2070
+ldi	2067
+ror	2057
+ofe	2040
+’a	2036
+_io	2035
+rmo	2030
+ipi	2028
+l´a	2026
+gel	2025
+fir	2025
+nac	2021
+fri	2019
+uce	2017
+rli	2015
+ted	2015
+w_	2012
+ya	2008
+hil	2006
+nk	2004
+ngr	1991
+blo	1986
+us_	1984
+ngu	1982
+bi_	1981
+ugn	1981
+tea	1979
+efe	1976
+_zo	1972
+_&l	1970
+_uf	1961
+rpr	1960
+ead	1959
+r_o	1958
+lif	1953
+sod	1952
+ngi	1950
+à_n	1948
+lef	1947
+arb	1946
+è_t	1945
+tig	1944
+dea	1943
+ch_	1942
+ò_c	1941
+ciò	1935
+top	1934
+ll’	1930
+ham	1929
+lac	1927
+reo	1926
+nd_	1926
+à_u	1920
+fot	1917
+iò_	1916
+cut	1914
+yo	1911
+lei	1907
+è_f	1906
+ear	1906
+ee_	1904
+ps	1903
+d_è	1903
+mul	1900
+sei	1892
+doc	1889
+uca	1886
+moc	1883
+sac	1882
+bag	1880
+ofo	1879
+rum	1875
+umi	1874
+hè	1872
+_fl	1872
+a_z	1869
+dun	1861
+sel	1861
+as_	1859
+chè	1859
+aba	1858
+opi	1858
+ù_p	1854
+arz	1853
+_sm	1852
+f_	1851
+ned	1846
+_ex	1845
+aiu	1841
+_um	1840
+oda	1838
+s_d	1836
+ans	1835
+lva	1834
+efo	1832
+ruo	1828
+è_n	1819
+sba	1819
+nag	1819
+gro	1818
+gne	1812
+ofi	1812
+u_u	1800
+ok	1794
+bbr	1788
+_dr	1787
+ngh	1779
+but	1777
+v_	1776
+uve	1776
+epi	1774
+rba	1774
+_we	1773
+rzi	1770
+git	1768
+vra	1767
+bab	1764
+hè_	1764
+_ov	1761
+mir	1759
+svo	1746
+d_o	1741
+ù_i	1739
+luo	1734
+iod	1731
+epu	1730
+nib	1723
+_jo	1722
+arn	1720
+lve	1714
+duz	1713
+ry	1712
+s_e	1711
+our	1710
+zer	1710
+nav	1707
+iug	1706
+fus	1702
+sud	1701
+rbi	1696
+tet	1689
+cog	1688
+am_	1687
+ur_	1682
+als	1680
+rrà	1680
+pil	1680
+juv	1679
+mbe	1678
+nev	1676
+aol	1675
+erp	1674
+ael	1672
+dib	1672
+ey	1671
+rui	1669
+cif	1667
+s_c	1667
+d_d	1665
+pao	1665
+_sh	1664
+ù_s	1660
+sfe	1660
+aud	1654
+neo	1651
+fru	1650
+oin	1648
+l’a	1647
+_wa	1643
+sep	1636
+vrà	1636
+mbo	1624
+vir	1623
+ffo	1615
+erb	1610
+dig	1609
+ct	1608
+zur	1605
+tus	1604
+iav	1602
+zin	1602
+pul	1601
+lge	1594
+sk	1591
+sla	1590
+s_s	1588
+u_c	1586
+_wi	1583
+tid	1583
+_ka	1582
+ovu	1577
+gos	1576
+deo	1574
+ft	1573
+zzu	1571
+scl	1569
+lf	1563
+hel	1561
+ach	1560
+har	1560
+ss_	1556
+gle	1555
+fle	1547
+mem	1537
+ik	1532
+coi	1529
+ree	1528
+ts	1527
+gas	1525
+uog	1525
+rt_	1523
+cic	1522
+new	1522
+irm	1520
+het	1518
+epo	1518
+nfl	1514
+dus	1511
+aia	1510
+urn	1504
+ba_	1502
+spu	1501
+sif	1498
+sfa	1497
+igr	1496
+isl	1495
+ò_a	1495
+ty	1488
+ugu	1488
+è_g	1478
+irà	1476
+à_m	1471
+icr	1469
+s_a	1468
+t_e	1464
+lsi	1463
+cum	1455
+dep	1453
+spl	1452
+moz	1444
+mov	1440
+«s	1436
+è_v	1434
+acr	1430
+os_	1427
+vaz	1427
+tl	1423
+_ja	1421
+ain	1420
+_et	1413
+asm	1412
+vas	1411
+ll_	1408
+plo	1404
+obe	1402
+_ur	1401
+mel	1401
+tob	1400
+ded	1398
+ugg	1397
+ph	1393
+dl	1392
+hu	1384
+lag	1382
+bur	1381
+lug	1381
+lip	1381
+´i	1380
+cac	1379
+cim	1374
+aq	1367
+sug	1365
+wo	1361
+das	1358
+bui	1355
+ck_	1352
+cle	1349
+edd	1349
+eoc	1348
+lma	1345
+fiu	1342
+usu	1342
+lm_	1341
+lum	1339
+_ip	1338
+war	1335
+pom	1333
+_x	1332
+pea	1330
+ds	1325
+t_p	1323
+rle	1321
+umo	1321
+nl	1316
+flu	1316
+dob	1310
+pau	1310
+aer	1308
+fu_	1305
+lir	1305
+ack	1304
+iev	1303
+vac	1298
+enc	1294
+ipl	1293
+iec	1293
+ebr	1293
+mpu	1292
+smi	1286
+urg	1285
+coo	1282
+ic_	1276
+um_	1276
+rpo	1275
+_om	1272
+r_b	1270
+dub	1268
+ns_	1268
+_za	1266
+fel	1265
+ii	1264
+z_	1259
+agr	1258
+rae	1256
+`_	1253
+tm	1253
+lul	1252
+gie	1251
+sme	1251
+urt	1248
+at_	1247
+gom	1245
+ly	1241
+irr	1241
+u_q	1241
+e_«	1240
+pog	1238
+igg	1237
+ngl	1235
+sas	1234
+sr	1233
+odd	1231
+ork	1226
+efa	1225
+ldo	1225
+à_r	1224
+om_	1224
+_uc	1223
+isf	1222
+fug	1220
+fab	1219
+à_f	1218
+ì_c	1218
+sg	1217
+roi	1217
+tc	1213
+lay	1213
+t_c	1212
+agu	1208
+irl	1207
+m_d	1207
+eam	1205
+pap	1205
+ddo	1203
+mog	1203
+tv	1199
+«i	1195
+icl	1195
+ozz	1193
+lza	1191
+iot	1190
+rze	1190
+cno	1187
+urb	1186
+sma	1185
+lvi	1185
+und	1184
+ù_g	1183
+l´i	1183
+bo_	1181
+sve	1181
+obr	1179
+pez	1178
+nt_	1178
+«l	1176
+teo	1176
+leo	1172
+lbe	1171
+’i	1169
+tw	1168
+sav	1165
+ebo	1164
+mam	1164
+vim	1158
+shi	1156
+ipp	1154
+lzo	1153
+aug	1152
+ggr	1152
+bos	1151
+his	1151
+ew_	1151
+t_s	1151
+afo	1148
+muo	1148
+orc	1145
+_ep	1143
+oft	1140
+l_e	1136
+ù_f	1135
+ech	1134
+pev	1134
+dua	1133
+né	1130
+leb	1130
+egh	1128
+fur	1125
+é_i	1123
+olv	1122
+anu	1119
+_yo	1117
+ò_e	1117
+bad	1116
+iap	1115
+ms	1114
+ù_v	1114
+é_l	1111
+je	1105
+tib	1103
+aul	1102
+ilt	1099
+vem	1098
+_th	1097
+dde	1091
+esu	1090
+led	1089
+lda	1084
+ò_s	1083
+hes	1082
+lue	1082
+rs_	1077
+l_w	1074
+nst	1073
+the	1073
+feb	1072
+ilv	1069
+cod	1069
+req	1065
+é_s	1063
+s_p	1062
+ò_d	1061
+nau	1058
+è_e	1053
+rfe	1052
+by	1046
+ws	1046
+né_	1045
+daz	1044
+edr	1044
+ì_s	1042
+nh	1041
+pid	1041
+ffu	1040
+«n	1039
+t_a	1036
+ay_	1035
+nad	1035
+air	1031
+à_t	1029
+cov	1027
+ark	1026
+lob	1025
+ebi	1023
+sra	1022
+veg	1022
+i_w	1021
+hit	1018
+to»	1018
+cot	1017
+boc	1015
+l_a	1013
+ny	1011
+«c	1011
+_tv	1011
+rtà	1010
+noc	1010
+lpo	1009
+fol	1006
+l’i	1002
+ker	1002
+tch	1002
+ecr	1001
+cab	1000
