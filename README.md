@@ -5,17 +5,15 @@ An implementation of a simple method for document language identification. The i
 
 ##Usage
 
-**Example**
+**Example: inside java code**
 
 	public static void main(String[] args) {
+		//Create hms.languageidentification.TextLanguageIdentifier object
 		TextLanguageIdentifier li = new TextLanguageIdentifier();
-		
+		//Call the identifyLanguage(String text) method. 
 		String lang = li.identifyLanguage("wie geht es dir");
+		//That is all!
 		System.out.println(lang);
-		
-		lang = li.identifyLanguage("it is a nice weather outside");
-		System.out.println(lang);
-		
 	}
 
 
