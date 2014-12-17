@@ -66,7 +66,7 @@ public class LanguageProfile {
 		Map<String, Integer> ngramCountMap = new HashMap<String, Integer>();
 		
 		
-		Pattern pattern = Pattern.compile("^_?[^0-9\\?!\\-_/,;.:§%?\"'|~^°(){} \\[\\] ]*_?$");
+		Pattern pattern = Pattern.compile("^_?[^0-9\\?!\\-_/,;.:§%?\"'|~^°(){}\\[\\]]*_?$");
 		
 		char[] chars = text.toCharArray();
 	  

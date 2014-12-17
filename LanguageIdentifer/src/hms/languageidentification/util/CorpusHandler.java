@@ -19,7 +19,7 @@ public class CorpusHandler {
 
 	private static int MIN_NGRAM = 1 ; //min n-gram length
 	private static int MAX_NGRAM = 3 ; //max n-gram length
-	private static int MIN_OCURR = 1000; //min occurance of an n-gram
+	private static int MIN_OCURR = 1; //min occurance of an n-gram
 	private static Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
 
 	
@@ -53,12 +53,7 @@ public class CorpusHandler {
 		
 	}
 	
-	public static void main(String[] args) {
 	
-		String corpusFileDir = "C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/" ;
-		String ngramFileDestDir = "./13grams/";
-		generateNGramForCorpuses(corpusFileDir, ngramFileDestDir );
-	}
 			
 	/**
 	 * Generate n-grams for a corpus file
@@ -121,5 +116,10 @@ public class CorpusHandler {
 	}
 	
 	
-	
+	public static void main(String[] args) {
+		
+		String corpusFileDir = "C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/" ;
+		String ngramFileDestDir = "./13grams/";
+		generateNGramForCorpuses(corpusFileDir, ngramFileDestDir );
+	}
 }
