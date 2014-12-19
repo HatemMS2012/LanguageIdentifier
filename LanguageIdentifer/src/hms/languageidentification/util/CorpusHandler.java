@@ -10,10 +10,18 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+
 import hms.languageidentification.LanguageProfile;
 
 
-
+/**
+ * Generates an n-gram-counts file from an input corpus file. The code is able to deal
+ * with the sentence files provided by the Leipzig Corpora Collection (http://corpora.informatik.uni-leipzig.de/download.html)
+ * A line in such a file has the form:
+ * SentenceNr \t Sentence
+ * @author Hatem Mousselly-Sergieh
+ *
+ */
 public class CorpusHandler {
 
 
@@ -21,6 +29,7 @@ public class CorpusHandler {
 	private static int MAX_NGRAM = 3 ; //max n-gram length
 	private static int MIN_OCURR = 1000; //min occurance of an n-gram
 	private static Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
+	private static final String FILE_SPEARTOR = "\t"; 
 
 	
 	/**
@@ -67,7 +76,7 @@ public class CorpusHandler {
 			String line;
 			
 			while ((line = br.readLine()) != null) {
-				String[] lineStr = line.split("\t");
+				String[] lineStr = line.split(FILE_SPEARTOR);
 				line = lineStr[1].toLowerCase();
 				
 				Map<String, Integer> lineNGrams = lp.generateAllNGrams(line, MIN_NGRAM, MAX_NGRAM);
@@ -83,17 +92,14 @@ public class CorpusHandler {
 					else{
 						ngramMapUnsorted.put(ngram, count);
 					}
-					
-					
+
 				}
 
-				
 			}
 
 			br.close();
 			isr.close();
-			
-
+	
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
 		}
@@ -101,14 +107,14 @@ public class CorpusHandler {
 	
 
 	/**
-	 * Save the n-grams to a file 
+	 * Save the n-grams with corresponding counts in tab separated file 
 	 * @param outputFilePath
 	 * @param minOccur The minimum accepted occurrence count for an n-gram
 	 */
 	public static void saveToFile(String outputFilePath, int minOccur){
 		
 		//First sort the n-gram according to their occurrences
-		Map<String, Integer> sortedNgramMap = CollectionsUtil.sortByComparator(ngramMapUnsorted, false);
+		Map<String, Integer> sortedNgramMap = CollectionsUtil.sortUsingComparator(ngramMapUnsorted, false);
 		
 		PrintWriter out;
 		try {
@@ -127,12 +133,11 @@ public class CorpusHandler {
 				
 		
 	}
-	
-	
-	public static void main(String[] args) {
 		
-		String corpusFileDir = "C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/" ;
-		String ngramFileDestDir = "./13grams/";
-		generateNGramForCorpuses(corpusFileDir, ngramFileDestDir );
-	}
+//	public static void main(String[] args) {
+//		
+//		String corpusFileDir = "C:/Development/LanduageDatasets/LeipzigCorpus/training/small training/corpusFiles/" ;
+//		String ngramFileDestDir = "./13grams/";
+//		generateNGramForCorpuses(corpusFileDir, ngramFileDestDir );
+//	}
 }

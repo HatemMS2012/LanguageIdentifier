@@ -2,44 +2,38 @@ package hms.languageidentification;
 
 import hms.languageidentification.util.CollectionsUtil;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 
+ * A LanguageProfile generates n-grams for a given text and calculates their number of occurrence in it.
+ * It can identify its own language by comparing its LanguageProfile with a collection of predefined LanguageProfiles.
+ * 
+ * @author Hatem Mousselly-Sergieh
+ *
+ */
 public class LanguageProfile {
 	
 	
-	private static final String FILE_SPEARTOR = "\t" ; //"\\s";
-	private static String DEFAULT_CONFIG_FILE = "resources/processed/config.properties";
-	private int DEFAULT_MAX_N_GRAME = 3 ; //Currently a maximum of 3-grams is supported
-	private int DEFAULT_MIN_N_GRAME = 1 ;
-	private String profileLanguage ;
-	private Map<String, Integer> allNgramsMap;
+
+	//N-grams containing any of the symbols defined by this regular expression will be discarded
+	private static final String SOTP_SYMBOL_PATTERN = "^_?[^0-9\\?!\\-_/,;.:§%?\"'|~^°(){}\\[\\]]*_?$"; 
+	
+	private final int DEFAULT_MAX_N_GRAME = 3 ; //In our predefined language n-gram files the max for n is 3
+	private final int DEFAULT_MIN_N_GRAME = 1 ;
+	private String profileLanguageEnName ; //The name of the identified language in English, e.g., German
+	private String profileLanguageOrgName ; //The original name of the identified language, e.g., Deutsch
+	private Map<String, Integer> ngramOccurenceMap; //A map of n-grams and the corresponding occurrences
 	
 	
 	/**
-	 * Create a language profile for a given text
+	 * Create a LanguageProfile for a given text
 	 * The language profile consist of n-grams and the corresponding counts in the given text
 	 * @param text
 	 */
@@ -49,14 +43,14 @@ public class LanguageProfile {
 	
 		Map<String, Integer> ngramsUnsorted = generateAllNGrams(text,DEFAULT_MIN_N_GRAME,DEFAULT_MAX_N_GRAME);
 		
-		this.allNgramsMap = new LinkedHashMap<String, Integer> (CollectionsUtil.sortByComparator(ngramsUnsorted,false));
+		this.ngramOccurenceMap = new LinkedHashMap<String, Integer> (CollectionsUtil.sortUsingComparator(ngramsUnsorted,false));
 		
 	}
 	
 	
 	
 	/**
-	 * Generate an map of n-grams and the corresponding counts from an input text.
+	 * Generate a map of n-grams of a given length and the corresponding counts for a given text
 	 * @param text
 	 * @param length
 	 * @return
@@ -66,7 +60,7 @@ public class LanguageProfile {
 		Map<String, Integer> ngramCountMap = new HashMap<String, Integer>();
 		
 		
-		Pattern pattern = Pattern.compile("^_?[^0-9\\?!\\-_/,;.:§%?\"'|~^°(){}\\[\\]]*_?$");
+		Pattern pattern = Pattern.compile(SOTP_SYMBOL_PATTERN);
 		
 		char[] chars = text.toCharArray();
 	  
@@ -103,7 +97,7 @@ public class LanguageProfile {
 	}
 	
 	/**
-	 * Generate all n-grams for n = start, ... to n = max from an input text
+	 * Generate all n-grams for n = start, ... to n = max for a given text
 	 * @param text
 	 * @param start
 	 * @param max
@@ -124,9 +118,8 @@ public class LanguageProfile {
 	
 	
 	/**
-	 * Identify the language of the language profile of the current class instance 
-	 * The determination id performed by comparing the profile (i.e., n-grams counts) of the current instance 
-	 * to a collection of language profiles (these are normally loaded from  the training set)
+	 * Identify the language of the current LanguageProfile by comparing the LanguageProfile (i.e., n-grams counts) 
+	 * of the current instance to a collection of given language profiles
 	 * @param profiles
 	 */
 	public Map<String, Integer> identify(Collection<LanguageProfile> profiles){
@@ -137,11 +130,11 @@ public class LanguageProfile {
 
 			int distance = calculateDistance(profile);
 			
-			distanceMap.put(profile.getProfileLanguage(), distance);
+			distanceMap.put(profile.getProfileLanguageEnName()+ ": " +profile.getProfileLanguageOrgName(), distance);
 			
 		}
 		//Sort according the profile distances in ascending order
-		return CollectionsUtil.sortByComparator(distanceMap,true);
+		return CollectionsUtil.sortUsingComparator(distanceMap,true);
 	}
 	
 	
@@ -161,7 +154,7 @@ public class LanguageProfile {
 		
 		int distance = 0;
 		
-		for(Entry<String, Integer> entry : this.allNgramsMap.entrySet()){
+		for(Entry<String, Integer> entry : this.ngramOccurenceMap.entrySet()){
 			
 			String ngram = entry.getKey();
 			
@@ -170,7 +163,7 @@ public class LanguageProfile {
 				continue;
 			}
 				
-			int posInText = getPosition(ngram,this.allNgramsMap);
+			int posInText = getPosition(ngram,this.ngramOccurenceMap);
 			int posInCourpus = getPosition(ngram,toCompareWithNgramMap);
 			distance += Math.abs (posInText- posInCourpus);
 
@@ -198,142 +191,31 @@ public class LanguageProfile {
 		return -1;
 	}
 	
-	public LanguageProfile loadLanguageProfile(InputStream pathToLanguageNgram){
-		
-		Map<String, Integer> ngramMapUnsorted = new HashMap<String, Integer>();
-
-		
-		LanguageProfile lp = new LanguageProfile();
-			
-			try {
-			
-				InputStreamReader isr = new InputStreamReader(pathToLanguageNgram);
-			
-				BufferedReader br = new BufferedReader(isr);
-			
-				String line ;
-			
-				while ((line = br.readLine()) != null) {
-					//Ignore comments
-					if(line.startsWith("#"))
-						continue;
-					
-					String[] tokens = line.split(FILE_SPEARTOR);
-					String ngram = tokens[0];
-					int ngramCount = Integer.valueOf(tokens[1]);
-					
-					ngramMapUnsorted.put(ngram,ngramCount);
-					
-					
-				}
-				
-				br.close();
-				isr.close();
-				
-			} catch (IOException ioe) {
-				ioe.printStackTrace();
-			}
-		
-			lp.setAllNgramsMap(CollectionsUtil.sortByComparator(ngramMapUnsorted,false));
-			
-			//Assumption: Language of the profile is indicated in the file name
-			//In our such files are named as: language-xxxx-xxx-sentences.csv
-//			lp.setProfileLanguage(pathToLanguageNgram.substring(pathToLanguageNgram.lastIndexOf("/")+1, 
-//																pathToLanguageNgram.indexOf("_")));
-			
-			return lp ;
+	
+	
+	public String getProfileLanguageEnName() {
+		return profileLanguageEnName;
 	}
 
-	/**
-	 * Load a language profile from a file
-	 * @param pathToLanguageNgram
-	 * @return
-	 */
-	public LanguageProfile loadLanguageProfile(String pathToLanguageNgram){
-		
-		
-		InputStream is = null;
-		try {
-			is = new FileInputStream(new File(pathToLanguageNgram));
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return loadLanguageProfile(is);
-		
+	public void setProfileLanguageEnName(String profileLanguageEnName) {
+		this.profileLanguageEnName = profileLanguageEnName;
 	}
 
-	
-	/**
-	 * Load language profiles from files from files stored in a given directory
-	 * @param configFile
-	 * @return
-	 */
-	public Collection<LanguageProfile> loadLanguageProfiles(String configFile){
-	
-		Collection<LanguageProfile> lps = new ArrayList<LanguageProfile>();
-		
-		
-		
-		InputStream confIs = LanguageProfile.class.getClassLoader().getResourceAsStream(configFile);
-			
-		InputStreamReader isr = new InputStreamReader(confIs);
-		
-		BufferedReader br = new BufferedReader(isr);
-	
-		String languageProfileFileName = null ;
-	
-		try {
-			while ((languageProfileFileName = br.readLine()) != null) {
-			
-				InputStream lpIs = LanguageProfile.class.getClassLoader().getResourceAsStream("resources/processed/"+languageProfileFileName);
-				LanguageProfile lp = loadLanguageProfile(lpIs);
-				lp.setProfileLanguage(languageProfileFileName.substring(languageProfileFileName.lastIndexOf("/")+1,languageProfileFileName.indexOf("_")));
-				lps.add(lp);
-			}
-			
-			br.close();
-			isr.close();
-			confIs.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return lps;
-		
-	}
-	
-	/**
-	 * Load default language profile
-	 * @return
-	 */
-	public Collection<LanguageProfile> loadLanguageProfiles(){
-		return loadLanguageProfiles(DEFAULT_CONFIG_FILE);
-	}
-	
-
-	public String getProfileLanguage() {
-		return profileLanguage;
+	public String getProfileLanguageOrgName() {
+		return profileLanguageOrgName;
 	}
 
-
-
-	public void setProfileLanguage(String name) {
-		this.profileLanguage = name;
+	public void setProfileLanguageOrgName(String profileLanguageOrgName) {
+		this.profileLanguageOrgName = profileLanguageOrgName;
 	}
-
-
 
 	public Map<String, Integer> getAllNgramsMap() {
-		return allNgramsMap;
+		return ngramOccurenceMap;
 	}
-
 
 
 	public void setAllNgramsMap(Map<String, Integer> allNgramsMap) {
-		this.allNgramsMap = allNgramsMap;
+		this.ngramOccurenceMap = allNgramsMap;
 	}
 
 
