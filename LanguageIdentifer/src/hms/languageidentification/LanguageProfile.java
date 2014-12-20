@@ -119,7 +119,7 @@ public class LanguageProfile {
 	
 	/**
 	 * Identify the language of the current LanguageProfile by comparing the LanguageProfile (i.e., n-grams counts) 
-	 * of the current instance to a collection of given language profiles
+	 * of the current instance to a collection of given LanguageProfiles
 	 * @param profiles
 	 */
 	public Map<String, Integer> identify(Collection<LanguageProfile> profiles){
@@ -141,9 +141,9 @@ public class LanguageProfile {
 	
 	
 	/**
-	 * Calculates the distance between two language profiles.
-	 * The distance is calculated based on the positions of the common n-grams
-	 * in both profiles.
+	 * Calculating the out-of-place measure between two LanguageProfiles. Basically, the
+	 * distance is defined in terms of the positions of the common n-grams in both profiles.
+	 * For more information refer to: N-Gram-Based Text Categorization (1994) by Cavnar et al.
 	 * @param languageProfile
 	 * @return
 	 */

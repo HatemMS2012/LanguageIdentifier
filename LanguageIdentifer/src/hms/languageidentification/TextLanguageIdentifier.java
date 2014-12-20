@@ -39,8 +39,8 @@ public class TextLanguageIdentifier {
 	
 	/**
 	 * The location of the predefined configuration file. You can define your own configuration file
-	 * and set this variable to refer to it. The configuration file contains the paths to predefined 
-	 * language n-gram files
+	 * and set this variable to refer to it (Not implemented yet @TODO). 
+	 * The configuration file contains the paths to predefined language n-gram files
 	 */
 	private static String DEFAULT_CONFIG_FILE = "resources/processed/config.properties";
 
